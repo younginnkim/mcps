@@ -1,0 +1,10 @@
+services:
+  elemental-ui-migration-mcp:
+    build: .
+    image: elemental-ui-migration-mcp:latest
+    container_name: elemental-ui-migration-mcp
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - PORT=8000

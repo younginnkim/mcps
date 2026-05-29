@@ -1,0 +1,1504 @@
+{
+  "WItemBase": {
+    "target": "EItemBase",
+    "action": "rename"
+  },
+  "WItemLayout": {
+    "target": "EItemLayout",
+    "action": "rename"
+  },
+  "WItemStyles": {
+    "target": "EItemStyles",
+    "action": "rename"
+  },
+  "WContent": {
+    "target": "EContent",
+    "action": "rename"
+  },
+  "WHeader": {
+    "target": "EHeader",
+    "action": "rename"
+  },
+  "WPanelLayout": {
+    "target": "EPanelLayout",
+    "action": "rename"
+  },
+  "WHeaderType": {
+    "target": "EHeaderType",
+    "action": "rename"
+  },
+  "WHeaderButtons": {
+    "target": "EHeaderButtons",
+    "action": "rename"
+  },
+  "WHeaderButtonBackgroundOpacity": {
+    "target": "EHeaderButtonBackgroundOpacity",
+    "action": "rename"
+  },
+  "WHeaderMarqeeOn": {
+    "target": "EHeaderMarqeeOn",
+    "action": "rename"
+  },
+  "WPopup": {
+    "target": "EPopup",
+    "action": "rename"
+  },
+  "WPopupData": {
+    "target": "EPopupData",
+    "action": "rename"
+  },
+  "WPopupController": {
+    "target": "EPopupController",
+    "action": "rename"
+  },
+  "WPopupOverlayController": {
+    "target": "EPopupOverlayController",
+    "action": "rename"
+  },
+  "WPopupLayout": {
+    "target": "EPopupLayout",
+    "action": "rename"
+  },
+  "WPopupPosition": {
+    "target": "EPopupPosition",
+    "action": "rename"
+  },
+  "WPopupScrim": {
+    "target": "EPopupScrim",
+    "action": "rename"
+  },
+  "WPopupStyles": {
+    "target": "EPopupStyles",
+    "action": "rename"
+  },
+  "WPopupAnimationData": {
+    "target": "EPopupAnimationData",
+    "action": "rename"
+  },
+  "WPopupChildData": {
+    "target": "EPopupChildData",
+    "action": "rename"
+  },
+  "WPopupDialogData": {
+    "target": "EPopupDialogData",
+    "action": "rename"
+  },
+  "WPopupShowDialogData": {
+    "target": "EPopupShowDialogData",
+    "action": "rename"
+  },
+  "WPopupSpotlightRestrict": {
+    "target": "EPopupSpotlightRestrict",
+    "action": "rename"
+  },
+  "WPopupInputType": {
+    "target": "EPopupInputType",
+    "action": "rename"
+  },
+  "WCheckbox": {
+    "target": "ECheckbox",
+    "action": "rename"
+  },
+  "WCheckboxBase": {
+    "target": "ECheckboxBase",
+    "action": "rename"
+  },
+  "WCheckboxItemStyles": {
+    "target": "ECheckboxItemStyles",
+    "action": "rename"
+  },
+  "WRadioButton": {
+    "target": "ERadioButton",
+    "action": "rename",
+    "deprecated": true,
+    "deprecatedNote": "Use ERadioItem instead"
+  },
+  "WRadioItemStyles": {
+    "target": "ERadioItemStyles",
+    "action": "rename"
+  },
+  "WSwitch": {
+    "target": "ESwitch",
+    "action": "rename",
+    "deprecated": true,
+    "deprecatedNote": "Use ESwitchItem or ESwitchBase instead"
+  },
+  "WSwitchBase": {
+    "target": "ESwitchBase",
+    "action": "rename"
+  },
+  "WSwitchItemStyles": {
+    "target": "ESwitchItemStyles",
+    "action": "rename"
+  },
+  "WDropdownDirection": {
+    "target": "EDropdownDirection",
+    "action": "rename"
+  },
+  "WDropdownWidth": {
+    "target": "EDropdownWidth",
+    "action": "rename"
+  },
+  "WDropdownSize": {
+    "target": "EDropdownSize",
+    "action": "rename"
+  },
+  "WVirtualListDirection": {
+    "target": "EVirtualListDirection",
+    "action": "rename"
+  },
+  "WVirtualListScrollbar": {
+    "target": "EVirtualListScrollbar",
+    "action": "rename"
+  },
+  "WSpinnerBlock": {
+    "target": "ESpinnerBlock",
+    "action": "rename"
+  },
+  "WSpinnerSize": {
+    "target": "ESpinnerSize",
+    "action": "rename"
+  },
+  "WSpinnerStyles": {
+    "target": "ESpinnerStyles",
+    "action": "rename"
+  },
+  "WToast": {
+    "target": "EToast",
+    "action": "rename",
+    "deprecated": true,
+    "deprecatedNote": "EToast is deprecated — use EAlert (overlay mode) or ETooltip instead"
+  },
+  "WToastContext": {
+    "target": "EToastContext",
+    "action": "rename",
+    "deprecated": true,
+    "deprecatedNote": "EToastContext is deprecated — use EAlert (overlay mode) instead"
+  },
+  "WTooltipPosition": {
+    "target": "ETooltipPosition",
+    "action": "rename"
+  },
+  "WTooltipType": {
+    "target": "ETooltipType",
+    "action": "rename"
+  },
+  "WTabController": {
+    "target": "ETabController",
+    "action": "rename",
+    "deprecated": true,
+    "deprecatedNote": "ETabController is deprecated since 2025-05-19 — use ETabLayoutController instead"
+  },
+  "WHeadingMarqueeOn": {
+    "target": "EHeadingMarqueeOn",
+    "action": "rename"
+  },
+  "WBodyTextSize": {
+    "target": "EBodyTextSize",
+    "action": "rename"
+  },
+  "WBodyTextStyles": {
+    "target": "EBodyTextStyles",
+    "action": "rename"
+  },
+  "WMarqueeAlign": {
+    "target": "EMarqueeAlign",
+    "action": "rename"
+  },
+  "WSliderOrientation": {
+    "target": "ESliderOrientation",
+    "action": "rename"
+  },
+  "WSliderTooltipPosition": {
+    "target": "ESliderTooltipPosition",
+    "action": "rename"
+  },
+  "WProgressBarOrientation": {
+    "target": "EProgressBarOrientation",
+    "action": "rename"
+  },
+  "WProgressButton": {
+    "target": "EProgressButton",
+    "action": "rename",
+    "deprecated": true,
+    "deprecatedNote": "EProgressButton is deprecated since 2025-06-30 — use EButton + EProgressBar combination instead"
+  },
+  "WIconItemStyles": {
+    "target": "EIconItemStyles",
+    "action": "rename"
+  },
+  "WIconItemLabelOn": {
+    "target": "EIconItemLabelOn",
+    "action": "rename"
+  },
+  "WIconItemTitleOn": {
+    "target": "EIconItemTitleOn",
+    "action": "rename"
+  },
+  "WImageItem": {
+    "target": "EImageItem",
+    "action": "rename"
+  },
+  "WImageItemRatio": {
+    "target": "EImageItemRatio",
+    "action": "rename"
+  },
+  "WImageItemStyles": {
+    "target": "EImageItemStyles",
+    "action": "rename"
+  },
+  "WMediaItem": {
+    "target": "EMediaItem",
+    "action": "rename",
+    "deprecated": true,
+    "deprecatedNote": "EMediaItem is deprecated since 2025-06-30 — use EImageItem or EGridItem instead"
+  },
+  "MediaType": {
+    "target": "MediaType",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "WCarousel": {
+    "target": "ECarousel",
+    "action": "rename",
+    "deprecated": true,
+    "deprecatedNote": "ECarousel is deprecated since 2025-06-30 — use EAnimatedCarousel or EAnimatedCarouselSlider"
+  },
+  "WAnimatedCarouselController": {
+    "target": "EAnimatedCarouselController",
+    "action": "rename"
+  },
+  "WAnimatedCarouselState": {
+    "target": "EAnimatedCarouselState",
+    "action": "rename"
+  },
+  "WAnimatedCarouselSlider": {
+    "target": "EAnimatedCarouselSlider",
+    "action": "rename"
+  },
+  "WAnimatedCarouselSliderController": {
+    "target": "EAnimatedCarouselSliderController",
+    "action": "rename"
+  },
+  "WAnimatedCarouselSliderState": {
+    "target": "EAnimatedCarouselSliderState",
+    "action": "rename"
+  },
+  "WAnimatedCarouselSliderItemConfig": {
+    "target": "EAnimatedCarouselSliderItemConfig",
+    "action": "rename"
+  },
+  "WScroller": {
+    "target": "EScroller",
+    "action": "rename"
+  },
+  "WFocusEffect": {
+    "target": "EFocusEffect",
+    "action": "rename"
+  },
+  "WFocusEffectType": {
+    "target": "EFocusEffectType",
+    "action": "rename"
+  },
+  "WFocusRingProperty": {
+    "target": "EFocusRingProperty",
+    "action": "rename"
+  },
+  "WFocusZoomProperty": {
+    "target": "EFocusZoomProperty",
+    "action": "rename"
+  },
+  "WFocusable": {
+    "target": "EFocusable",
+    "action": "rename"
+  },
+  "WFocusableScope": {
+    "target": "EFocusableScope",
+    "action": "rename"
+  },
+  "WFocusScopeNode": {
+    "target": "EFocusScopeNode",
+    "action": "rename"
+  },
+  "WFocusNode": {
+    "target": "EFocusNode",
+    "action": "rename"
+  },
+  "FocusRootScope": {
+    "target": "FocusRootScope",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "AlignFocusedElement": {
+    "target": "AlignFocusedElement",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "FocusScrollConfig": {
+    "target": "FocusScrollConfig",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "FocusNavigationManager": {
+    "target": "FocusNavigationManager",
+    "action": "rename",
+    "notes": "Name preserved; new FocusNavigationMode enum added in elutter"
+  },
+  "FiveWaysNavigationTraversalPolicy": {
+    "target": "FiveWaysNavigationTraversalPolicy",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "FocusNavigationPointerLocking": {
+    "target": "FocusNavigationPointerLocking",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "FocusUtility": {
+    "target": "FocusUtility",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "ScrollOffset": {
+    "target": "ScrollOffset",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "WKeyGuide": {
+    "target": "EKeyGuide",
+    "action": "rename",
+    "deprecated": true,
+    "deprecatedNote": "EKeyGuide is deprecated since 2025-06-30 — use EQuickGuidePanels for step-by-step guide flows"
+  },
+  "WKeyGuideItem": {
+    "target": "EKeyGuideItem",
+    "action": "rename",
+    "deprecated": true,
+    "deprecatedNote": "EKeyGuideItem is deprecated since 2025-06-30 — use EQuickGuidePanels with EQuickGuidePanel children"
+  },
+  "WKeyGuideController": {
+    "target": "EKeyGuideController",
+    "action": "rename",
+    "deprecated": true,
+    "deprecatedNote": "EKeyGuideController is deprecated since 2025-06-30 — use EActionGuide or EQuickGuidePanels instead"
+  },
+  "WActionGuide": {
+    "target": "EActionGuide",
+    "action": "rename"
+  },
+  "WAnimatedOpacity": {
+    "target": "EAnimatedOpacity",
+    "action": "rename"
+  },
+  "WAnimatedPosition": {
+    "target": "EAnimatedPosition",
+    "action": "rename"
+  },
+  "WAnimatedRotation": {
+    "target": "EAnimatedRotation",
+    "action": "rename"
+  },
+  "WAnimatedScale": {
+    "target": "EAnimatedScale",
+    "action": "rename"
+  },
+  "WDatePicker": {
+    "target": "EDatePicker",
+    "action": "rename"
+  },
+  "WDayPicker": {
+    "target": "EDayPicker",
+    "action": "rename"
+  },
+  "WTimePicker": {
+    "target": "ETimePicker",
+    "action": "rename"
+  },
+  "WReorderableListView": {
+    "target": "EReorderableListView",
+    "action": "rename"
+  },
+  "ReorderableController": {
+    "target": "ReorderableController",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "WPointerAndKeysHandler": {
+    "target": "EPointerAndKeysHandler",
+    "action": "rename"
+  },
+  "WVerticalToHorizontalWheelConverter": {
+    "target": "EVerticalToHorizontalWheelConverter",
+    "action": "rename"
+  },
+  "GlobalKeyHandler": {
+    "target": "GlobalKeyHandler",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "WebOSKeyCodes": {
+    "target": "WebOSKeyCodes",
+    "action": "rename",
+    "deprecated": true,
+    "deprecatedNote": "WebOSKeyCodes is @Deprecated — webOS key constants are deprecated, check EGlobalKeyHandler for updated key handling"
+  },
+  "WColorTokens": {
+    "target": "EColorTokens",
+    "action": "rename"
+  },
+  "WFontTokens": {
+    "target": "EFontTokens",
+    "action": "rename"
+  },
+  "WRadiusTokens": {
+    "target": "ERadiusTokens",
+    "action": "rename"
+  },
+  "WSpaceTokens": {
+    "target": "ESpaceTokens",
+    "action": "rename"
+  },
+  "WCurveTokens": {
+    "target": "ECurveTokens",
+    "action": "rename"
+  },
+  "WDurationTokens": {
+    "target": "EDurationTokens",
+    "action": "rename"
+  },
+  "WTheme": {
+    "target": "ETheme",
+    "action": "rename"
+  },
+  "WThemeDarkStyle": {
+    "target": "EThemeDarkStyle",
+    "action": "rename"
+  },
+  "WFont": {
+    "target": "EFont",
+    "action": "rename"
+  },
+  "WFixedPopupPanels": {
+    "target": "EFixedPopupPanels",
+    "action": "rename"
+  },
+  "WVoiceControl": {
+    "target": "EVoiceControl",
+    "action": "rename"
+  },
+  "VoiceControlProperties": {
+    "target": "VoiceControlProperties",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "WScrollable": {
+    "target": "EScrollable",
+    "action": "rename"
+  },
+  "Button": {
+    "target": "EButton",
+    "action": "rename",
+    "notes": "Plover exposes a separate Button class alongside WButton; in elutter both collapse into EButton."
+  },
+  "ButtonSize": {
+    "target": "EButtonSize",
+    "action": "rename"
+  },
+  "ButtonIcon": {
+    "target": "EButtonIcon",
+    "action": "rename"
+  },
+  "ButtonBackgroundOpacity": {
+    "target": "EButtonBackgroundOpacity",
+    "action": "rename"
+  },
+  "ButtonDecorator": {
+    "target": "ButtonDecorator",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "CustomAnimation": {
+    "target": "CustomAnimation",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "IconFlip": {
+    "target": "IconFlip",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "IconPosition": {
+    "target": "IconPosition",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "FocusableWidget": {
+    "target": "FocusableWidget",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "ColorState": {
+    "target": "ColorState",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "VisibleOnFocus": {
+    "target": "VisibleOnFocus",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "LimestoneIcons": {
+    "target": "LimestoneIcons",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "SandstoneIcons": {
+    "target": "LimestoneIcons",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elutter.dart"
+  },
+  "WButton": {
+    "target": "EButton",
+    "action": "rewrite-params",
+    "breakingChange": true,
+    "notes": "child (Widget) → text (String) or buildChildWidget; animation → enableAnimation; ButtonSize → EButtonSize; remove keepChild, originScale, onKey",
+    "paramChanges": {
+      "removed": [
+        "keepChild",
+        "originScale",
+        "onKey"
+      ],
+      "renamed": {
+        "animation": "enableAnimation",
+        "semanticButtonLabel": "semanticsLabel"
+      },
+      "notes": "child (Widget) → text (String) for simple text buttons, or buildChildWidget: (context, state) => Widget for complex children. ButtonSize → EButtonSize."
+    }
+  },
+  "WAlert": {
+    "target": "EAlert",
+    "action": "rewrite-params",
+    "notes": "WAlertType → EAlertType; WAlertImageType → EAlertImageType; new params: hideCurve, hideDuration, showCurve, showDuration"
+  },
+  "WItem": {
+    "target": "EItem",
+    "action": "rewrite-params",
+    "notes": "New params: onHover, onFocusChange, itemColor"
+  },
+  "WPanel": {
+    "target": "EPanel",
+    "action": "rewrite-params",
+    "notes": "New params: fullHeight, keepAlive"
+  },
+  "WCheckboxItem": {
+    "target": "ECheckboxItem",
+    "action": "rewrite-params",
+    "notes": "New params: checkboxSize, checkboxIconSize, isFocused, isOnTapDown, isOnTapUp"
+  },
+  "WRadioItem": {
+    "target": "ERadioItem",
+    "action": "rewrite-params",
+    "notes": "New param: isFocused"
+  },
+  "WSwitchItem": {
+    "target": "ESwitchItem",
+    "action": "rewrite-params",
+    "breakingChange": true,
+    "notes": "Remove centered, inline, slotAfter, slotBefore; children param not supported — use EItem wrapper",
+    "paramChanges": {
+      "removed": [
+        "centered",
+        "inline",
+        "slotAfter",
+        "slotBefore"
+      ],
+      "added": [
+        "focused"
+      ],
+      "notes": "ESwitchItem does not support children param. Wrap with EItem if label or slot is needed."
+    }
+  },
+  "WDropdown": {
+    "target": "EDropdown",
+    "action": "rewrite-params",
+    "notes": "WDropdownDirection → EDropdownDirection; WDropdownWidth → EDropdownWidth; WDropdownSize → EDropdownSize"
+  },
+  "WVirtualList": {
+    "target": "EVirtualList",
+    "action": "rewrite-params",
+    "breakingChange": true,
+    "notes": "itemBuilder: (ctx, index, isFocused: bool) → (ctx, index, focusNode: EFocusNode); new params: itemSize (optional double — auto-estimated if null), hoverScrollSpeed, padding, onFocusChangeItem, alignFocusedElement",
+    "paramChanges": {
+      "added": [
+        "itemSize (optional double — item height/width, auto-estimated if null)",
+        "hoverScrollSpeed",
+        "padding",
+        "onFocusChangeItem",
+        "alignFocusedElement"
+      ],
+      "notes": "itemBuilder signature changes: (BuildContext, int, bool isFocused) → (BuildContext, int, EFocusNode focusNode). The focusNode MUST be passed to the child widget (focus-passthrough rule)."
+    }
+  },
+  "WSpinner": {
+    "target": "ESpinner",
+    "action": "rewrite-params",
+    "notes": "WSpinnerBlock → ESpinnerBlock; WSpinnerSize → ESpinnerSize; size default changed from small → large; transparent default changed from false → true"
+  },
+  "WTooltip": {
+    "target": "ETooltip",
+    "action": "rewrite-params",
+    "notes": "WTooltipPosition → ETooltipPosition (14 positions, values added: aboveCenter, aboveLeft, aboveRight, belowCenter, belowLeft, belowRight, leftBottom, leftMiddle, leftTop, rightBottom, rightMiddle, rightTop); WTooltipType → ETooltipType; all param names unchanged",
+    "paramChanges": {
+      "notes": "All param names unchanged. Type renames: WTooltipPosition → ETooltipPosition (14 positions), WTooltipType → ETooltipType."
+    }
+  },
+  "WTabs": {
+    "target": "ETabs",
+    "action": "rewrite-params",
+    "deprecated": true,
+    "deprecatedNote": "ETabs is deprecated since 2025-06-30 — use ETabLayout + ETabLayoutController instead",
+    "notes": "wTabController → eTabController",
+    "paramChanges": {
+      "renamed": {
+        "wTabController": "eTabController"
+      }
+    }
+  },
+  "WHeading": {
+    "target": "EHeading",
+    "action": "rewrite-params",
+    "notes": "WHeadingMarqueeOn → EHeadingMarqueeOn"
+  },
+  "WBodyText": {
+    "target": "EBodyText",
+    "action": "rewrite-params",
+    "notes": "WBodyTextSize → EBodyTextSize"
+  },
+  "WMarquee": {
+    "target": "EMarquee",
+    "action": "rewrite-params",
+    "notes": "WMarqueeAlign → EMarqueeAlign"
+  },
+  "WInput": {
+    "target": "EInput",
+    "action": "rewrite-params",
+    "deprecated": true,
+    "deprecatedNote": "EInput is deprecated since 2025-06-30 — use EInputField + EInputPopup combination instead",
+    "notes": "WInputSize → EInputSize; WInputType → EInputType; WInputPopupType → EInputPopupType"
+  },
+  "WSlider": {
+    "target": "ESlider",
+    "action": "rewrite-params",
+    "notes": "WSliderOrientation → ESliderOrientation; WSliderTooltipPosition → ESliderTooltipPosition"
+  },
+  "WProgressBar": {
+    "target": "EProgressBar",
+    "action": "rewrite-params",
+    "notes": "WProgressBarOrientation → EProgressBarOrientation"
+  },
+  "WIconItem": {
+    "target": "EIconItem",
+    "action": "rewrite-params",
+    "notes": "WIconItemLabelOn → EIconItemLabelOn; WIconItemTitleOn → EIconItemTitleOn"
+  },
+  "WPanels": {
+    "target": "EPanels",
+    "action": "rewrite-params",
+    "notes": "EPanels.index param is deprecated — use EPanelsController.index instead"
+  },
+  "WAnimatedCarousel": {
+    "target": "EHorizontalList",
+    "action": "restructure",
+    "breakingChange": true,
+    "notes": "Migrating to EHorizontalList drops carousel-specific behavior: focus scale-up (animatedScale/enterAnimCurve/exitAnimCurve/shouldScaleFirstAndLastItemFromEdge/itemConfigBuilder), initial focus index (initialOfFocused), focus-by-index controller (carouselController.requestFocusOnItem), per-item header/title (itemHeader/itemHeaderKey/onTapItemHeader/itemTitleBuilder), animated header (header(bool animation) → static title), focus-change callback (onFocusChangeItem), keyboard customization (registeredLongPressKeys/registeredTapKeys/longPressDuration), voice control (itemLabel/groupLabel/typeVoiceItemHeader), and Axis.vertical (use EVerticalList). enableMotion default flips false→true.",
+    "paramChanges": {
+      "removed": [
+        "animatedScale",
+        "enterAnimCurve",
+        "exitAnimCurve",
+        "shouldScaleFirstAndLastItemFromEdge",
+        "itemConfigBuilder",
+        "initialOfFocused",
+        "carouselController",
+        "onFocusChangeItem",
+        "onFocusedItemAnimationChange",
+        "delayAutoScroll",
+        "itemHeader",
+        "itemHeaderKey",
+        "onTapItemHeader",
+        "typeVoiceItemHeader",
+        "itemTitleBuilder",
+        "registeredLongPressKeys",
+        "registeredTapKeys",
+        "longPressDuration",
+        "itemLabel",
+        "groupLabel",
+        "itemKey",
+        "speedScrolling",
+        "scrollZone",
+        "animDuration",
+        "onShowItem",
+        "direction"
+      ],
+      "renamed": {
+        "controller": "scrollController",
+        "onTap": "onItemTap",
+        "onLongPress": "onItemLongPress",
+        "scrollType": "scrollCurve",
+        "childMargin": "spacing",
+        "header": "title"
+      },
+      "added": [
+        "focusScopeNode",
+        "autoFocus",
+        "enableHoverScroll",
+        "alignFocusedElement",
+        "scrollDuration",
+        "longPressCurve"
+      ],
+      "notes": "Signature/default changes: onLongPress (int, KeyEvent?) → onItemLongPress (int, {bool isKey}); scrollType default Curves.linear → scrollCurve default Curves.easeOutCirc; childMargin default 0 → spacing default 8.0; header(bool animation)→Widget → title:Widget? (animation flag dropped); enableMotion default false → true. itemBuilder signature (BuildContext, int, bool isFocus) → Widget is preserved. direction:Axis is removed — EHorizontalList is horizontal-only; for Axis.vertical use EVerticalList instead."
+    }
+  },
+  "PopupMenuScrimType": {
+    "target": "EPopupScrim",
+    "action": "restructure",
+    "breakingChange": true,
+    "notes": "Pass `scrim: EPopupScrim.translucent` (default) / `EPopupScrim.transparent` / etc. directly to the FlexiblePopupPanels constructor. EPopupMenuScrimType does not exist; this replaces the scrim enum from the Plover popup-menu API."
+  },
+  "WFullScreenPopup": {
+    "target": "EWizardPanels",
+    "action": "restructure",
+    "notes": "Wizard-style fullscreen popup panels; WFullScreenPopupController has no direct equivalent — manage state via EWizardPanels callbacks"
+  },
+  "WFullScreenPopupController": {
+    "target": "EWizardPanels",
+    "action": "restructure",
+    "notes": "No separate controller in EWizardPanels — use onChange/onNextClick/onPrevClick callbacks instead"
+  },
+  "WPopupMenu": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No direct equivalent. Plover popup-menu family does not exist in elemental_widgets — migrate to FlexiblePopupPanels (category: EFlexiblePopupPanels, exported from package:elutter/elutter.dart, actual Dart class name has no E prefix). FlexiblePopupPanels is a side-anchored popup container with one or more FlexiblePopupPanel children; menu items become widgets (EItem / ERadioItem / ESwitchItem) inside the panel body. Requires `context: context` in the constructor and renders via EPopup overlay (left/right position). Restructure required."
+  },
+  "WSettingPopup": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No direct equivalent. Setting popup pattern is now built with FlexiblePopupPanels (category: EFlexiblePopupPanels). Use a FlexiblePopupPanel per setting group with `FlexiblePopupPanelsHeader` (title/subtitle/onClose) followed by an EScroller of EItem/ESwitchItem/ERadioItem. For multi-step settings use multiple FlexiblePopupPanel children and rely on built-in prev/next navigation. ESettingPopup does not exist."
+  },
+  "WPopUpMenuButton": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No direct equivalent. The trigger button is no longer part of the popup widget itself — wire an EButton's onPressed to `FlexiblePopupPanelsController.open()` (after optionally calling `moveTo(idx)`). EPopUpMenuButton does not exist."
+  },
+  "WPopUpMenuItem": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No direct equivalent. A 'menu item' in the Plover sense maps to either (a) a row widget (EItem/ERadioItem/ESwitchItem) inside a FlexiblePopupPanel body, or (b) a whole FlexiblePopupPanel when the item drills into its own sub-panel. Choose based on whether the item navigates or just selects. EPopUpMenuItem does not exist."
+  },
+  "PopupMenuController": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "FlexiblePopupPanelsController bundles popup open/close (EPopupController) and panel index (EPanelsController). API: `open()`, `close()`, `moveTo(int idx)`, `isOpen`, `index`. Construct with `FlexiblePopupPanelsController(index: 0, initialOpen: false)` and dispose() in State.dispose. Listener registration also forwards to the inner controllers."
+  },
+  "WLayeredPopup": {
+    "target": "?",
+    "action": "manual",
+    "notes": "Flexible popup panels replacing layered popup. NOTE: target class is FlexiblePopupPanels (no E prefix in elemental_widgets); related classes: FlexiblePopupPanel, FlexiblePopupPanelsController, FlexiblePanelData, FlexiblePanelContext."
+  },
+  "WLayeredPopupController": {
+    "target": "?",
+    "action": "manual",
+    "notes": "Name has no E prefix in elemental_widgets"
+  },
+  "WButtonGuide": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No direct equivalent in elemental_widgets — e_button_guide directory and EButtonGuide class do not exist. Likely consolidated into EKeyGuide / EQuickGuidePanels / EActionGuide; choose based on use case."
+  },
+  "PopUpContentListModel": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No direct equivalent in elemental_widgets — model-driven menu lists are no longer used. Reshape the data into a `List<Widget>` (EItem / ERadioItem / ESwitchItem) and place it inside a FlexiblePopupPanel body, typically wrapped in EScroller. For multi-section content split across multiple FlexiblePopupPanel children."
+  },
+  "VoiceControl": {
+    "target": "VoiceControl",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlStatefulWidget": {
+    "target": "VoiceControlStatefulWidget",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlState": {
+    "target": "VoiceControlState",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlMixin": {
+    "target": "VoiceControlMixin",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlDelegate": {
+    "target": "VoiceControlDelegate",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlConfigurationData": {
+    "target": "VoiceControlConfigurationData",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlItemCreator": {
+    "target": "VoiceControlItemCreator",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "OnVoiceActionResult": {
+    "target": "OnVoiceActionResult",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "IVoiceControlItem": {
+    "target": "IVoiceControlItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlSelectItem": {
+    "target": "VoiceControlSelectItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlSelectCheckItem": {
+    "target": "VoiceControlSelectCheckItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlSelectRadioItem": {
+    "target": "VoiceControlSelectRadioItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlSetToggleItem": {
+    "target": "VoiceControlSetToggleItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlDeleteItem": {
+    "target": "VoiceControlDeleteItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlPlayContentItem": {
+    "target": "VoiceControlPlayContentItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlPlayListControlItem": {
+    "target": "VoiceControlPlayListControlItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlHorizontalScrollItem": {
+    "target": "VoiceControlHorizontalScrollItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlVerticalScrollItem": {
+    "target": "VoiceControlVerticalScrollItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlBothScrollItem": {
+    "target": "VoiceControlBothScrollItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "VoiceControlZoomItem": {
+    "target": "VoiceControlZoomItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "InAppIntent": {
+    "target": "InAppIntent",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "InAppAction": {
+    "target": "InAppAction",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "InAppIntentItem": {
+    "target": "InAppIntentItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "InAppIntentMaker": {
+    "target": "InAppIntentMaker",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "CustomInAppIntent": {
+    "target": "CustomInAppIntent",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "CustomInAppAction": {
+    "target": "CustomInAppAction",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "CustomInAppIntentItem": {
+    "target": "CustomInAppIntentItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "SelectInAppIntent": {
+    "target": "SelectInAppIntent",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "SelectInAppIntentItem": {
+    "target": "SelectInAppIntentItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "SelectCheckItemInAppIntent": {
+    "target": "SelectCheckItemInAppIntent",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "SelectCheckItemInAppAction": {
+    "target": "SelectCheckItemInAppAction",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "SelectCheckItemInAppIntentItem": {
+    "target": "SelectCheckItemInAppIntentItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "SelectRadioItemInAppIntent": {
+    "target": "SelectRadioItemInAppIntent",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "SelectRadioItemInAppAction": {
+    "target": "SelectRadioItemInAppAction",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "SelectRadioItemInAppIntentItem": {
+    "target": "SelectRadioItemInAppIntentItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "SetToggleItemInAppIntent": {
+    "target": "SetToggleItemInAppIntent",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "SetToggleItemInAppAction": {
+    "target": "SetToggleItemInAppAction",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "SetToggleItemInAppIntentItem": {
+    "target": "SetToggleItemInAppIntentItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "DeleteInAppIntent": {
+    "target": "DeleteInAppIntent",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "DeleteInAppIntentItem": {
+    "target": "DeleteInAppIntentItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "PlayContentInAppIntent": {
+    "target": "PlayContentInAppIntent",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "PlayContentInAppIntentItem": {
+    "target": "PlayContentInAppIntentItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "PlayListControlInAppIntent": {
+    "target": "PlayListControlInAppIntent",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "PlayListControlInAppAction": {
+    "target": "PlayListControlInAppAction",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "ScrollInAppIntent": {
+    "target": "ScrollInAppIntent",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "ScrollInAppAction": {
+    "target": "ScrollInAppAction",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "ZoomInAppIntent": {
+    "target": "ZoomInAppIntent",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "ZoomInAppAction": {
+    "target": "ZoomInAppAction",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "ShowInAppIntent": {
+    "target": "ShowInAppIntent",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "ShowInAppIntentItem": {
+    "target": "ShowInAppIntentItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "HideInAppIntent": {
+    "target": "HideInAppIntent",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "HideInAppIntentItem": {
+    "target": "HideInAppIntentItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "NotFocusableScrollInAppIntent": {
+    "target": "NotFocusableScrollInAppIntent",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "NotFocusableZoomInAppIntent": {
+    "target": "NotFocusableZoomInAppIntent",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "NotFocusablePlayListControlInAppIntent": {
+    "target": "NotFocusablePlayListControlInAppIntent",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "FocusAlign": {
+    "target": "FocusAlign",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "FocusEffect": {
+    "target": "FocusEffect",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "FocusZoom": {
+    "target": "FocusZoom",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "FocusNavigationMode": {
+    "target": "FocusNavigationMode",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "FocusRing": {
+    "target": "FocusRing",
+    "action": "rename",
+    "notes": "Name preserved, BUT semantics differ: in elemental FocusRing is a color-token (focus_ring) class under e_design_tokens, not a focus-effect widget. Verify usage — focus-ring rendering is handled by EFocusEffect/EFocusRingProperty."
+  },
+  "FocusItemPool": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No equivalent in elemental_widgets — the focus item-pool / focused-vs-unfocused widget pooling architecture was not ported. Focus state is handled inline by EFocusable + EFocusEffect."
+  },
+  "FocusItemPoolState": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No equivalent in elemental_widgets — the focus item-pool / focused-vs-unfocused widget pooling architecture was not ported. Focus state is handled inline by EFocusable + EFocusEffect."
+  },
+  "FocusedItemWidget": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No equivalent in elemental_widgets — the focus item-pool / focused-vs-unfocused widget pooling architecture was not ported. Focus state is handled inline by EFocusable + EFocusEffect."
+  },
+  "FocusedItemWidgetState": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No equivalent in elemental_widgets — the focus item-pool / focused-vs-unfocused widget pooling architecture was not ported. Focus state is handled inline by EFocusable + EFocusEffect."
+  },
+  "FocusedItemViewModel": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No equivalent in elemental_widgets — the focus item-pool / focused-vs-unfocused widget pooling architecture was not ported. Focus state is handled inline by EFocusable + EFocusEffect."
+  },
+  "UnfocusedItemWidget": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No equivalent in elemental_widgets — the focus item-pool / focused-vs-unfocused widget pooling architecture was not ported. Focus state is handled inline by EFocusable + EFocusEffect."
+  },
+  "UnfocusedItemWidgetState": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No equivalent in elemental_widgets — the focus item-pool / focused-vs-unfocused widget pooling architecture was not ported. Focus state is handled inline by EFocusable + EFocusEffect."
+  },
+  "WHeaderLayout": {
+    "target": "EHeaderLayout",
+    "action": "rename"
+  },
+  "WItemCustomStyle": {
+    "target": "EItemCustomStyle",
+    "action": "rename"
+  },
+  "WHorizontalScrollAction": {
+    "target": "EHorizontalScrollAction",
+    "action": "rename"
+  },
+  "WVerticalScrollAction": {
+    "target": "EVerticalScrollAction",
+    "action": "rename"
+  },
+  "WSliderThumbShape": {
+    "target": "ESliderThumbShape",
+    "action": "rename"
+  },
+  "WSliderTrackShape": {
+    "target": "ESliderTrackShape",
+    "action": "rename"
+  },
+  "WSliderVerticalTrackShape": {
+    "target": "ESliderVerticalTrackShape",
+    "action": "rename"
+  },
+  "WSliderTooltipShape": {
+    "target": "ESliderTooltipShape",
+    "action": "rename"
+  },
+  "WSliderAnchorShape": {
+    "target": "ESliderAnchorShape",
+    "action": "rename"
+  },
+  "WTooltipState": {
+    "target": "ETooltipState",
+    "action": "rename"
+  },
+  "WAnimatedBaseState": {
+    "target": "EAnimatedBaseState",
+    "action": "rename"
+  },
+  "WSliverReorderableListState": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No equivalent — ESliverReorderableListState does not exist. Use EReorderableListView (public API); the internal sliver state is not exposed."
+  },
+  "AnimatedText": {
+    "target": "AnimatedText",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "ButtonBase": {
+    "target": "ButtonBase",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "ButtonBox": {
+    "target": "ButtonBox",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "Switch": {
+    "target": "Switch",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "Toast": {
+    "target": "Toast",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "ImageContainer": {
+    "target": "ImageContainer",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "PickerItem": {
+    "target": "PickerItem",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "PickerItemController": {
+    "target": "PickerItemController",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "HorizontalProgressTooltip": {
+    "target": "HorizontalProgressTooltip",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "VerticalProgressTooltip": {
+    "target": "VerticalProgressTooltip",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "HorizontalTooltipData": {
+    "target": "HorizontalTooltipData",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "HorizontalScrollBar": {
+    "target": "HorizontalScrollBar",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "VerticalScrollBar": {
+    "target": "VerticalScrollBar",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "HorizontalScroller": {
+    "target": "HorizontalScroller",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "VerticalScroller": {
+    "target": "VerticalScroller",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "HorizontalThumb": {
+    "target": "HorizontalThumb",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "VerticalThumb": {
+    "target": "VerticalThumb",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "HoverScroll": {
+    "target": "HoverScroll",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "TwoDimensionsScroller": {
+    "target": "TwoDimensionsScroller",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "FadingCircle": {
+    "target": "FadingCircle",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "CustomBorderBox": {
+    "target": "CustomBorderBox",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "CustomBorderBoxPainter": {
+    "target": "CustomBorderBoxPainter",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "ProgressBarPainter": {
+    "target": "ProgressBarPainter",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "ThumbPainter": {
+    "target": "ThumbPainter",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "TriangleClipper": {
+    "target": "TriangleClipper",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "RightTriangleClipper": {
+    "target": "RightTriangleClipper",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "TooltipShapeBorder": {
+    "target": "TooltipShapeBorder",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "BalloonTooltipBorder": {
+    "target": "BalloonTooltipBorder",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets — internal implementation class"
+  },
+  "MarqueePainter": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "Exists only as private _MarqueePainter inside e_marquee (not exported). Use EMarquee widget; do not reference the painter directly."
+  },
+  "MarqueeExtends": {
+    "target": "EMarquee",
+    "action": "rename",
+    "notes": "No MarqueeExtends class in elemental — marquee behavior is provided by the EMarquee widget."
+  },
+  "PopupContent": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No equivalent in elemental_widgets — internal Plover helper not ported. Rebuild with EPopup/EFlexiblePopupPanels (popup) or the EReorderableListView API (reordering) as appropriate."
+  },
+  "PopupMeta": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No equivalent in elemental_widgets — internal Plover helper not ported. Rebuild with EPopup/EFlexiblePopupPanels (popup) or the EReorderableListView API (reordering) as appropriate."
+  },
+  "WrapReorderingAnimation": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No equivalent in elemental_widgets — internal Plover helper not ported. Rebuild with EPopup/EFlexiblePopupPanels (popup) or the EReorderableListView API (reordering) as appropriate."
+  },
+  "Dropdown": {
+    "target": "EDropdown",
+    "action": "rename",
+    "notes": "Plover Dropdown maps to EDropdown. NOTE: a same-named 'Dropdown' color-token class also exists under e_design_tokens — pick EDropdown for the widget."
+  },
+  "DropdownButton": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "Flutter Material dropdown class — no elemental equivalent. Migrate to EDropdown."
+  },
+  "DropdownButtonFormField": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "Flutter Material dropdown class — no elemental equivalent. Migrate to EDropdown."
+  },
+  "DropdownButtonHideUnderline": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "Flutter Material dropdown class — no elemental equivalent. Migrate to EDropdown."
+  },
+  "BaseComponent": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "CAUTION: In elemental_widgets 'BaseComponent' and its same-named subclasses (Accessibility, ActionGuide, AppIcon, Badge, BodyText, ... ~90 names) are COLOR-TOKEN component classes (e_design_tokens/.../color_tokens/component), NOT the Plover icon widgets. Do NOT auto-rename Plover icon components to them. Migrate Plover icon widgets to EIcon with LimestoneIcons/SandstoneIcons glyphs instead."
+  },
+  "CommonUtils": {
+    "target": "CommonUtils",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "Logger": {
+    "target": "Logger",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "FontResizer": {
+    "target": "FontResizer",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "ComputedParams": {
+    "target": "ComputedParams",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "ContainerConfig": {
+    "target": "ContainerConfig",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "ComparableObject": {
+    "target": "ComparableObject",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "Oblique": {
+    "target": "Oblique",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "Straight": {
+    "target": "Straight",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "RelativePosition": {
+    "target": "RelativePosition",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "PickerCustomClass": {
+    "target": "PickerCustomClass",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "BehaviorSubject": {
+    "target": "BehaviorSubject",
+    "action": "rename",
+    "notes": "Name preserved (no E prefix) in elemental_widgets"
+  },
+  "PloverLocalization": {
+    "target": "ElementalLocalization",
+    "action": "rename",
+    "notes": "Renamed: PloverLocalization → ElementalLocalization (common/localization/elemental_localization.dart)."
+  },
+  "Utils": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No standalone Utils class — consolidated into CommonUtils. Migrate Utils.* calls to CommonUtils.*."
+  },
+  "AnimatedCarouselItemConfig": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "No plain AnimatedCarouselItemConfig — use EAnimatedCarouselSliderItemConfig (already mapped from WAnimatedCarouselSliderItemConfig)."
+  },
+  "App": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "Not a real class in elemental_widgets (only appears in doc comments). No migration target."
+  },
+  "Base": {
+    "target": "?",
+    "action": "manual",
+    "breakingChange": true,
+    "notes": "Not a real class in elemental_widgets (only appears in doc comments). No migration target."
+  }
+}
