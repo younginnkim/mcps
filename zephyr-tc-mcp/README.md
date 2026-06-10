@@ -14,24 +14,30 @@ TAS 파이프라인의 "TC 자동 수집" 앞단으로 쓴다.
 이 MCP 는 **stdio** 로 동작한다. jira MCP 가 `uvx mcp-atlassian` + `JIRA_PERSONAL_TOKEN` 으로
 각 사용자가 자기 PC에서 자기 토큰으로 돌리는 것과 똑같다. 호스팅 서버/IP 가 필요 없다.
 
-**1) 코드 받기**
-```sh
-git clone <이 repo> ~/zephyr-tc-mcp
-```
-( `uv` 가 의존성을 자동 설치하므로 venv/pip 수동 작업 불필요. `uv` 없으면: `curl -LsSf https://astral.sh/uv/install.sh | sh` )
+전제: `uv` 만 있으면 된다 (없으면 `curl -LsSf https://astral.sh/uv/install.sh | sh`).
+Jira 토큰은 `jira.lge.com → 프로필 → Personal Access Tokens` 에서 본인 것 발급.
 
-**2) 본인 Jira 토큰 발급**
-`jira.lge.com → 프로필 → Personal Access Tokens` 에서 발급.
-
-**3) Claude 에 등록 (본인 토큰을 env 로 — jira/hlm 과 같은 스타일)**
+### 방법 A — clone 없이 GitHub raw URL (권장)
+`uv` 가 원격 스크립트를 받아 의존성까지 자동설치한다. clone·경로 불필요, 푸시하면 다음 실행 때 자동 최신.
 ```sh
 claude mcp add -s user zephyr-tc \
   -e JIRA_PAT=<본인_PAT> \
   -e JIRA_VERIFY_SSL=0 \
-  -- uv run --no-project ~/zephyr-tc-mcp/server.py
+  -- uv run https://raw.githubusercontent.com/younginnkim/mcps/main/zephyr-tc-mcp/server.py
 ```
-> hlm 명령과 차이: 변수명이 `JIRA_PAT`(우리 서버용), 명령이 로컬 파일이라 경로 필요,
+
+### 방법 B — 로컬 clone (오프라인·코드 수정용)
+```sh
+git clone https://github.com/younginnkim/mcps.git ~/mcps
+claude mcp add -s user zephyr-tc \
+  -e JIRA_PAT=<본인_PAT> \
+  -e JIRA_VERIFY_SSL=0 \
+  -- uv run --no-project ~/mcps/zephyr-tc-mcp/server.py
+```
+> hlm 명령과 차이: 변수명이 `JIRA_PAT`(우리 서버용), 로컬 파일이라 경로 필요,
 > `uv` 의 `--no-project` 플래그를 claude 가 삼키지 않도록 `--` 구분자 필수.
+
+등록 후 Claude Code 재시작 → `/mcp` 로 `zephyr-tc ✔ Connected` 확인.
 Claude Code 재시작 → `/mcp` 로 `zephyr-tc ✔ Connected` 확인.
 
 > 토큰은 **각자 자기 `~/.claude.json`** 에만 저장된다(서버에 안 남음). 각 호출은 그 사용자 신분으로 Jira 를 본다.
